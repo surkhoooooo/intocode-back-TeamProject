@@ -1,6 +1,7 @@
 const { Router } = require("express");
 const router = Router();
-const { admin } = require("../controllers/adminController");
-const adminMiddleware = require("../middleware/admin.middleware");
+const { admin } = require("../controllers/admin.controller");
 
 /////Все CRUD операции
+
+module.exports = router;
